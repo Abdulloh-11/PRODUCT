@@ -25,6 +25,7 @@ nav ul {
     gap: 24px;
     margin: 0;
     padding: 0;
+   
 }
 
 header {
@@ -469,7 +470,7 @@ nav ul :nth-child(9) {
     width: 542px;
     margin: 0 auto;
     color: #22343D;
-    margin-bottom: 10px;
+    padding-bottom: 10px;
     color: var(--main-text-color);
 }
 
@@ -920,12 +921,6 @@ nav ul :nth-child(9) {
     padding-bottom: 50px;
 }
 
-.join_name {
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 151.4%;
-    color: #FFFFFF;
-}
 
 .join_btn {
     font-weight: 600;
@@ -1043,3 +1038,467 @@ color: var(--main-text-color);
     --main-input-color:#1F2E35;
    
 }
+
+.bar{
+    display: none;
+
+}
+
+
+
+
+@media (min-width: 576px) , (max-width: 276px) {
+    nav ul :nth-child(2) {
+        padding-top: 14px;
+        padding-right: 87px;
+    }
+
+    nav ul :nth-child(3) {
+display: none;
+    }
+
+    nav ul :nth-child(4) {
+display: none;
+    }
+
+    nav ul :nth-child(5) {
+        display: none;
+    }
+
+    nav ul :nth-child(6) {
+        display: none;
+    }
+
+    nav ul :nth-child(7) {
+        display: none;
+    }
+
+    nav ul :nth-child(8) {
+        display: none;
+    } 
+
+   
+    
+
+.container{
+    max-width: 500px;
+    padding: 0 20px;
+   
+}
+
+
+.hero_one_div{
+    padding-bottom: 70px;
+    font-size: 10px;
+
+}
+  
+    .svg{
+        width: 400px;
+    }
+   
+    .hero{
+        display: block;
+        flex-direction: column-reverse; 
+    }
+
+    .bar{
+        display: block;
+        width: 10px ;
+        height: 10px
+        
+        
+    }
+
+    .imgbar{
+        padding-top: 10px;
+        width: 40px ;
+        height: 40px;
+    }
+
+    .card_divs{
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+
+    .customer_btn{
+        
+        position: relative;
+       left: 150px;
+       top: 60px;
+
+    }
+
+    .pricing {
+        padding-top: 92px;
+     
+    }
+    .pricing ul li {
+        display: block;
+        gap: 84px;
+      
+    }
+
+  
+
+    .men_div {
+        display: block;
+        gap: 78px;
+        
+      
+    }
+
+
+    .women_div {
+        display: block;
+        gap: 78px;
+        padding-bottom: 50px;
+        
+    }
+
+    .btn--div {
+        margin: 0 auto;
+        padding: 50px  0px 0px 180px ;
+    
+    }
+    
+
+    .can_div p{
+        padding-bottom: 50px;
+    }
+
+    .contevt_cards{
+        display: grid;
+        grid-template-columns: auto;
+        padding-left: 100px;
+        
+    }
+    
+
+  
+    .carusel{
+        padding-left: 230px;
+        padding-top: 64px;
+        padding-bottom: 50px;
+    }
+    
+    
+
+    
+
+    
+.cards_div_prise {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 31.35px;
+    padding-left: 100px;
+}
+
+.grade h1 {
+    padding-top: 20px;
+}
+
+
+.grade_div_cards {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 34px;
+    padding-top: 50px;
+    padding-left: 100px;
+
+
+}
+
+.join_card {
+    display: block;
+
+    width: 468px;
+    height: 688px;
+    background-color: #02897A;
+    border-radius: 32px;
+    margin: 0 auto;
+   
+
+}
+
+.join_card h3 {
+    width: 328px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 151.4%;
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 40px;
+    
+}
+.join_btn{
+   margin-left: 100px;
+  }
+
+  .footer_text {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+ 
+}
+.footerlogo{
+    padding-left: 10px;
+}
+
+.logos_div{
+    padding-left: 150px;
+}
+
+.input_about{
+    padding-left: 90px;
+}
+
+.footer_paragr{
+    padding-bottom: 100px;
+}
+
+.chart{
+    padding-bottom: 100px;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 926px) {
+    nav ul :nth-child(2) {
+        padding-top: 14px;
+        padding-right: 87px;
+    }
+
+    nav ul :nth-child(3) {
+display: none;
+    }
+
+    nav ul :nth-child(4) {
+display: none;
+    }
+
+    nav ul :nth-child(5) {
+        display: none;
+    }
+
+    nav ul :nth-child(6) {
+        display: none;
+    }
+
+   
+   
+    
+
+.container{
+    max-width: 700px;
+    padding: 0 20px;
+   
+}
+
+
+.hero_one_div{
+    padding-bottom: 70px;
+   
+
+
+}
+  
+    .svg{
+        width: 400px;
+    }
+   
+    .hero{
+        display: block;
+        flex-direction: column-reverse; 
+    }
+
+    .bar{
+        display: none;
+       
+        
+    }
+
+    .imgbar{
+        padding-top: 10px;
+        width: 40px ;
+        height: 40px;
+    }
+
+    .card_divs{
+        grid-template-columns: auto auto;
+        justify-content: center;
+    }
+
+    .customer_btn{
+        
+        position: relative;
+       left: 150px;
+       top: 60px;
+
+    }
+
+    .pricing {
+        padding-top: 92px;
+     
+    }
+    .pricing ul li {
+        display: block;
+        gap: 84px;
+      
+    }
+
+  
+
+    .men_div {
+        display: block;
+        gap: 78px;
+        
+      
+    }
+
+
+    .women_div {
+        display: block;
+        gap: 78px;
+        padding-bottom: 50px;
+        
+    }
+
+    .btn--div {
+        margin: 0 auto;
+        padding: 50px  0px 0px 180px ;
+    
+    }
+    
+
+    .can_div p{
+        padding-bottom: 50px;
+    }
+
+    .contevt_cards{
+        display: grid;
+        grid-template-columns: auto auto;
+        padding-left: 20px;
+        
+    }
+    
+
+  
+    .carusel{
+        padding-left: 330px;
+        padding-top: 64px;
+        padding-bottom: 50px;
+    }
+    
+    
+
+    
+
+    
+.cards_div_prise {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 31.35px;
+    padding-left: 30px;
+}
+
+.grade h1 {
+    padding-top: 20px;
+}
+
+
+
+.grade_div_cards {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 34px;
+    padding-top: 50px;
+    padding-left: 30px;
+
+
+}
+
+.join_card {
+    display: block;
+
+    width: 468px;
+    height: 688px;
+    background-color: #02897A;
+    border-radius: 32px;
+    margin: 0 auto;
+   
+
+}
+
+.join_card h3 {
+    width: 328px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 151.4%;
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 40px;
+    
+}
+.join_btn{
+   margin-left: 100px;
+  }
+
+  .footer_text {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+ 
+}
+.footerlogo{
+    padding-left: 10px;
+}
+
+.logos_div{
+    padding-left: 250px;
+}
+
+.input_about{
+    padding-left: 190px;
+}
+
+.footer_paragr{
+    padding-bottom: 100px;
+}
+
+.chart{
+    padding-bottom: 100px;
+}
+
+
+
+}
+
+@media (min-width: 1440px) {
+
+    
+}
+
+
+
+
+
+
+
+    
+
